@@ -38,6 +38,7 @@ namespace ImageToSprite
             webClient.DownloadFile(new Uri(url), fileName");
 
             Though the only way I've noticed to get it to work with VRChat is to have a loader because VRChat doesn't like it and you usually get the error of Target Machine Actively Refused it.
+            But Through Console Applications the same link and code will work fine. 
             */
         }
     }
