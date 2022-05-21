@@ -26,7 +26,6 @@ namespace ImageToSprite
             return _createdSprite;
             /*
             If you want to download an image to use it as a sprite, the proper way to do it would be to use webclient to download the image permanently instead of every call
-            so you don't have to download in image everytime that you load your game.
 
             This will help users with limited bandwidth as restarting your game over and over can cause a bigger build up it may look small but small things add up.
             If you don't know how to create a webClient to Download an image I will show you.
