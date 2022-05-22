@@ -35,7 +35,8 @@ namespace ImageToSprite
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
             webClient.Headers.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:99.0) Gecko/20100101 Firefox/99.0");
             string url = "URL-Here";  // Change the URL to an http so it can be accessed. Some Don't require but out of experience most do. 
-            webClient.DownloadFile(new Uri(url), fileName");
+            string fileName = "FileName-Here";
+            webClient.DownloadFile(new Uri(url), fileName);
 
             Though the only way I've noticed to get it to work with VRChat is to have a loader because VRChat doesn't like it and you usually get the error of Target Machine Actively Refused it.
             But Through Console Applications the same link and code will work fine. 
